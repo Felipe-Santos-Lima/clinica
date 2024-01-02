@@ -1,0 +1,86 @@
+.company-register{
+  color: #687EFF;
+  text-align: center;
+  width: 900px;
+  list-style: none;
+
+}
+.company-register-box{
+  border: solid 3px;
+  border-radius: 10px;
+  padding: 20px;
+  border-color: #687EFF;
+  margin-top: 130px ;
+  margin-left: 250px;
+  background: #effaff;
+}
+.example-form {
+  margin-top: 20px;
+  margin-left: 100px;
+  min-width: 150px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.company-register-voltar{
+  background-color: #effaff ;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border-color: #687EFF;
+  margin-right: 30px;
+}
+.company-register-voltar a{
+  text-decoration: solid;
+}
+.company-register-entrar input{
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #687EFF;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.company-text {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+.company-aviso{
+  background-color: #effaff ;
+  cursor: pointer;
+  border: none;
+  margin-top: -4px;
+}
+:mat-form-field{
+  background: #effaff;
+}
+input:focus{
+  outline: none;
+}
+app-footer{
+  display: block;
+  margin-top: 470px;
+}
+@media (max-width: 952px){
+  .company-register-box {
+    font-size: 20px;
+
+  }
+  .list-all-itens p{
+    font-size: 15px;
+    line-height: 2.5em;
+    text-align: justify;
+
+  }
+
+@media (max-width: 800px){
+}
+}

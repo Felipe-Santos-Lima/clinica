@@ -1,0 +1,81 @@
+.container{
+  font-size: 20px;
+  margin-top: 70px;
+}
+.list-btn-orange:hover{
+  background-color: #687EFF;
+  color: #ffffff;
+}
+.list-all-itens{
+  font-size: 20px;
+  line-height: 1.9em;
+
+}
+.list-title{
+  margin-left: 40px;
+  color: #687EFF;
+}
+.list-item{
+  padding: px;
+  text-align: justify;
+}
+.list-all-itens p{
+font-size: 17px;
+margin: 20px;
+width: 400px;
+
+}
+.btn-list{
+  text-align: center;
+  margin-top: 10px;
+}
+.list-btn{
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: #687EFF;
+  color: #ffffff;
+  height: 50px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.list-btn:hover{
+  background-color: #80B3FF;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+app-footer{
+  margin-top: 10px;
+}
+
+@media (max-width: 952px){
+  .list-all-itens {
+    font-size: 20px;
+
+  }
+  .list-all-itens p{
+    font-size: 15px;
+    line-height: 2.5em;
+    text-align: justify;
+
+  }
+
+@media (max-width: 800px){
+  .list-all-itens {
+    font-size: 15px;
+
+  }
+  .list-all-itens p{
+    font-size: 13px;
+    line-height: 2.5em;
+    text-align: justify;
+
+
+}
+
+}
+}

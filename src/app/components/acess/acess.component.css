@@ -1,0 +1,68 @@
+.login{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #687EFF;
+}
+.login-box{
+  border: solid 3px;
+  border-radius: 10px;
+  padding: 20px;
+  border-color: #687EFF;
+  margin-top: 180px ;
+}
+
+.login-email input{
+  background-color: #effaff;
+  border-radius: 15px;
+  border: none;
+  width: 250px;
+  height: 40px;
+  padding-left: 15px ;
+  border: solid 1px;
+  border-color: #687EFF;
+
+}
+
+.login-senha input{
+  background-color: #effaff;
+  border-radius: 15px;
+  border: none;
+  width: 250px;
+  height: 40px;
+  padding-left: 16px ;
+  margin-top: 17px;
+  border: solid 1px;
+  border-color: #687EFF;
+}
+
+.login-entrar input{
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #687EFF;
+  color: #ffffff;
+  margin-top: 15px;
+}
+input:focus{
+  outline: none;
+}
+p{
+  margin-top: 13px;
+  font-size: 10px;
+}
+.forgot-password{
+  font-size: 12px;
+
+}
+app-footer{
+  display: block;
+  margin-top: 212px;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,110 @@
+.form {
+  text-align: center;
+  display: flex;
+  color: #687eff;
+}
+.form-box {
+  border: solid 2px;
+  border-radius: 10px;
+  padding: 20px;
+  border-color: #687EFF;
+  margin-top: 180px ;
+  margin-left: 500px;
+}
+.form-email input {
+  background-color: #effaff;
+  border-radius: 15px;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 25px;
+  border: solid 1px;
+  border-color: #687eff;
+}
+.form-nome input {
+  background-color: #effaff;
+  border-radius: 15px;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 25px;
+  border: solid 1px;
+  border-color: #687eff;
+}
+.form-numero input {
+  background-color: #effaff;
+  border-radius: 15px;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 25px;
+  border: solid 1px;
+  border-color: #687eff;
+}
+
+.form-entrar input {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #687eff;
+  color: #ffffff;
+}
+.form-voltar {
+  background-color: #effaff;
+  cursor: pointer;
+  width: 110px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border-color: #687eff;
+  margin-right: 40px;
+}
+.form-assunto textarea {
+  background-color: #effaff;
+  padding: 0.6em;
+  border-radius: 15px;
+  border: none;
+  width: 250px;
+  height: 70px;
+  padding-left: 15px;
+  border: solid 1px;
+  border-color: #687eff;
+}
+.validation-error p {
+  color: red;
+  font-size: 13px;
+  width: 100px;
+  margin-top: -20px;
+  margin-left: 27px;
+}
+.validation-error-email p {
+  color: red;
+  font-size: 13px;
+  width: 100px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+app-footer {
+  display: block;
+  margin-top: 170px;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+@media (max-width: 952px) {
+  .form {
+    font-size: -13px;
+    margin-left: -100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .form-box {
+    margin-left: 160px;
+  }
+}
+@media (max-width: 700px) {
+  .form-box {
+    margin-left: 400px;
+  }
+}

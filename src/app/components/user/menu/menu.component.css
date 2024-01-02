@@ -1,0 +1,12 @@
+.list-group-item{
+transition: all 0.5s;
+}
+
+.list-group-item:hover{
+  border-radius: 5px;
+  background-color: #687EFF!important;
+}
+.navbar{
+  background-color: #687EFF;
+
+}

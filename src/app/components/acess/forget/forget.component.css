@@ -1,0 +1,79 @@
+.forget{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.forget-box{
+border: solid 3px;
+border-radius: 10px;
+padding: 20px;
+border-color: #687EFF;
+margin-top: 130px ;
+}
+.forget-email input{
+width: 250px;
+height: 40px;
+padding-left: 15px ;
+border:  solid 1px;
+border-color: #687EFF;
+border-radius: 15px;
+
+}
+.forget-nome input{
+border-radius: 15px;
+width: 250px;
+height: 40px;
+padding-left: 15px ;
+margin-bottom: 15px;
+border: solid 1px;
+border-color: #687EFF;
+}
+
+.forget-senha input{
+border-radius: 15px;
+border: none;
+width: 250px;
+height: 40px;
+padding-left: 15px ;
+border: solid 1px;
+border-color: #687EFF;
+margin-top: 15px;
+}
+
+.forget-entrar input{
+cursor: pointer;
+width: 120px;
+height: 40px;
+border-radius: 20px;
+border: none;
+background-color: #687EFF;
+color: #ffffff;
+margin-top: 20px;
+}
+.forget-voltar{
+cursor: pointer;
+width: 120px;
+height: 40px;
+border-radius: 20px;
+margin-top: 20px;
+border-color: #687EFF;
+margin-right: 30px;
+}
+a{
+text-decoration: none;
+color: #687EFF;
+}
+
+p{
+  font-size: 11px;
+  padding: 10px;
+}
+input:focus{
+  outline: none;
+}
+ app-footer{
+  display: block;
+  margin-top: 305px;
+ }
